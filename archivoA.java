@@ -37,3 +37,12 @@ public static void ejercicio14() {
 		System.out.println("La raiz de "+n+" elevado al cuadrado es: "+raiz);
 	}
 }
+public static void ejercicio1(int num1, int num2) {
+		//Definimos el rango 
+		int menor=Math.min(num1, num2);
+		int mayor=Math.max(num1, num2);
+		
+		for(int i=menor;i<=mayor;i++) {
+			System.out.println(i);
+		}
+	}
