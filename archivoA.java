@@ -51,3 +51,8 @@ public static double ejercicio3(double radio, double altura) {
 		volumen=(double) (Math.PI*Math.pow(radio, 2)*altura);
 		return volumen;
 	}
+public static double ejercicio11(int x1, int x2, int y1, int y2) {
+		double distancia;
+		distancia=Math.sqrt(Math.pow((x2-x1), 2)+Math.pow((y2-y1),2));
+		return distancia;
+	}
