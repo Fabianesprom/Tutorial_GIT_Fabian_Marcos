@@ -46,3 +46,8 @@ public static void ejercicio1(int num1, int num2) {
 			System.out.println(i);
 		}
 	}
+public static double ejercicio3(double radio, double altura) {
+		double volumen;
+		volumen=(double) (Math.PI*Math.pow(radio, 2)*altura);
+		return volumen;
+	}
